@@ -1,0 +1,34 @@
+@import "tailwindcss";
+body{
+    background-color: #393E46;
+    font-family: 'Inter', sans-serif;
+}
+html, body, #root ,a{
+  cursor: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  z-index: 9999; 
+}
+
+.custom-cursor.hovered {
+  transform: translate(-50%, -50%) scale(1.3);
+  background-color: #F96D00;
+}
+@media (pointer: coarse) {
+  .custom-cursor {
+    display: none;
+  }
+}

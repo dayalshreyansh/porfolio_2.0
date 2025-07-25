@@ -1,0 +1,4 @@
+@import "tailwindcss";
+[data-aos].aos-animate {
+  opacity: unset !important;
+}
