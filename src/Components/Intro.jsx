@@ -1,4 +1,4 @@
-import React from "react";
+
 import waves from "../assets/layered-waves-haikei (3).svg";
 function Intro() {
   return (

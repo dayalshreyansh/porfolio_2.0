@@ -1,4 +1,4 @@
-import React from "react";
+
 import reactLogo from "../assets/React.svg";
 import mogodbLogo from "../assets/MongoDB.svg";
 import nodejsLogo from "../assets/Node.svg";
