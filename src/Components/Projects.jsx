@@ -10,7 +10,7 @@ function Projects() {
           My Latest Works
         </div>
         <div className="flex flex-col items-center lg:flex-row">
-          <div data-aos="fade-left" className="my-20">
+          <div data-aos="fade-left" className="my-100">
             <div className="h-[500px] w-[80vw] max-w-[500px] lg:h-[550px] lg:w-[500px] bg-[#222831] ">
               <img className="" src={ellora} alt="" />
               <div className="text-[#f2f2f2] p-3 mx-2 text-xl lg:text-2xl font-semibold">
@@ -32,7 +32,7 @@ function Projects() {
             </div>
             
           </div>
-          <div data-aos="fade-left" className="my-20">
+          <div data-aos="fade-left" className="my-100">
             <div className="h-[500px] w-[80vw] max-w-[500px] lg:h-[550px] lg:w-[500px] bg-[#222831] ">
               <img className="" src={ellora} alt="" />
               <div className="text-[#f2f2f2] p-3 mx-2 text-xl lg:text-2xl font-semibold">
