@@ -31,6 +31,27 @@ function Projects() {
               </div>
             </div>
           </div>
+          <div data-aos="fade-left" className="my-20">
+            <div className="h-[500px] w-[80vw] max-w-[500px] lg:h-[550px] lg:w-[500px] bg-[#222831] ">
+              <img className="" src={ellora} alt="" />
+              <div className="text-[#f2f2f2] p-3 mx-2 text-xl lg:text-2xl font-semibold">
+                Ellora
+              </div>
+              <p className="p-3 mx-2 text-sm text-[#f2f2f2] opacity-60">
+                Discover and shop a wide range of products with ease on our
+                sleek, user-friendly e-commerce app. Enjoy secure payments, fast
+                delivery, and exclusive deals — all in one place.
+              </p>
+              <div className="flex flex-row justify-around">
+                <div className=" m-3 w-[40%] bg-[#f96c00a0] p-3 text-center hover:bg-[#F96D00] hover-target">
+                  Visit Code
+                </div>
+                <div className=" m-3 w-[40%] bg-[#f96c00a0] p-3 text-center hover:bg-[#F96D00] hover-target">
+                  Visit Website
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="text-6xl text-[#f2f2f2] font-semibold" data-aos="fade-up" id="other">Other Works</div>
